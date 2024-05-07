@@ -5,4 +5,13 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: 'blog',
   plugins: [react()],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://raw.githubusercontent.com/samb-park/blogdata/main',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      },
+    },
+  },
 })
