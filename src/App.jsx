@@ -8,14 +8,9 @@ import Footer from './components/Footer';
 
 const App = () => {
 
-  return <BrowserRouter>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/resume" element={<Resume />} />
-    </Routes>
-    <Footer />
-  </BrowserRouter>
+  return <div>
+    AAA
+  </div>
 }
 
 export default App;
