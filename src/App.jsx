@@ -1,20 +1,21 @@
 import '../public/bootstrap-4.4-2.1-dist/css/bootstrap.css';
 
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Navbar from './components/Navbar';
 import Resume from './pages/Resume';
-import MainLayout from './layouts/MainLayout';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <Router>
-      <MainLayout>
-        <Route path="/" exact component={Home} />
-        <Route path="/resume" component={Resume} />
-        {/* Other routes */}
-      </MainLayout>
-    </Router>
-  );
+const App = () => {
+
+  return <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/resume" element={<Resume />} />
+    </Routes>
+    <Footer />
+  </BrowserRouter>
 }
 
 export default App;
