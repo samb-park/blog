@@ -5,7 +5,7 @@ const Experiences = () => {
 
   useEffect(() => {
     const fetchExperiences = async () => {
-      const api = '/api/experiences.json';
+      const api = 'https://raw.githubusercontent.com/samb-park/blogdata/main/experiences.json';
 
       try {
         console.log('Fetching data from the network...');

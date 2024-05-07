@@ -6,7 +6,7 @@ const Projects = () => {
 
   useEffect(() => {
     const fetchProjects = async () => {
-      const api = '/api/projects.json';
+      const api = 'https://raw.githubusercontent.com/samb-park/blogdata/main/projects.json';
     
       try {
         console.log('Fetching data from the network...');
