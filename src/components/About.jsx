@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className=''>
       <div className='h3'>
-        <p>
+        <p className='h3  text-primary '>
           <span>S</span>ANGBONG PARK
         </p>
         <p className='mt-3'>
-          <span className='text-secondary'>F</span>ULL STACK |{' '}
-          <span className='text-secondary'>.N</span>ET DEVELOPER
+          <span className='text-danger'>F</span>ULL STACK |{' '}
+          <span className='text-danger'>.N</span>ET DEVELOPER
         </p>
         <p>
           Building robust, full-stack solutions with .NET and modern web

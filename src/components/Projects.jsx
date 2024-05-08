@@ -26,7 +26,7 @@ const Projects = () => {
 
 
   return (
-    <div className=''>
+    <div className='mt-3'>
       <div className='h3 text-success'>PROJECTS</div>
       <div className='h3'>
         {projects.map((project, index) => (
