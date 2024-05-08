@@ -9,8 +9,8 @@ const About = () => {
           <span>S</span>ANGBONG PARK
         </p>
         <p className='mt-3'>
-          <span className='text-secondary'>F</span>ULL STACK DEVELOPER |{' '}
-          <span className='text-secondary'>.N</span>ET SOFTWARE DEVELOPER
+          <span className='text-secondary'>F</span>ULL STACK |{' '}
+          <span className='text-secondary'>.N</span>ET DEVELOPER
         </p>
         <p>
           Building robust, full-stack solutions with .NET and modern web
