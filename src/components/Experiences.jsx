@@ -27,7 +27,7 @@ const Experiences = () => {
   }, []);
 
   return (
-    <div className='text-white mt-3'>
+    <div className='text-white'>
       <div className='h3'>
         <div className='h3 text-success'>EXPERIENCES</div>
         {experiences
