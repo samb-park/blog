@@ -61,7 +61,7 @@ const Projects = () => {
                 <br />
                 {project.gitUrl && (
                   <Link
-                    to={{ pathname: project.gitUrl }}
+                    to={ project.gitUrl }
                     target="_blank"
                     className='btn btn-info font-italic'
                   >
