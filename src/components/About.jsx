@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom';
 
 const About = () => {
-
   return (
     <div className=''>
       <div className='h3'>
-        <p className='h3  text-primary '>
+        <p className='h3 text-success '>
           <span>S</span>ANGBONG PARK
         </p>
         <p className='mt-3'>
